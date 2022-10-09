@@ -1,0 +1,69 @@
+body {
+  color: black;
+  font-family: Verdana;
+  font-size: 14px;
+  background-color: beige;
+  margin-left: 60px;
+  margin-right: 100px;
+}
+
+button {
+  font-size: 20px;
+  background-color: gold;
+  font-weight: bold;
+  margin: 20px 20px 0px 100px;
+}
+
+h1 {
+  color: darkblue;
+  font-family: Montserrat;
+  font-size: 4em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: darkblue;
+  font-family: Roboto;
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: darkblue;
+  font-family: Roboto;
+  font-size: 2em;
+  text-decoration: underline;
+  margin-top: 60px;
+}
+
+.pnormal {
+  font-weight: normal;
+}
+
+.pthick {
+  font-weight: bold;
+}
+
+.hero {
+  column-count: 2;
+  column-gap: 40px;
+  justify-content: center;
+}
+
+.about {
+  column-count: 2;
+  column-gap: 40px;
+  justify-content: center;
+}
+
+.experience {
+  column-count: 2;
+  column-gap: 40px;
+  justify-content: center;
+}
+
+.workstations {
+  margin-bottom: 5%;
+}
