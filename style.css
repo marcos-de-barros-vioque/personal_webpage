@@ -1,41 +1,93 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Montserrat;
+}
+
 body {
-  color: black;
-  font-family: Verdana;
   font-size: 14px;
   background-color: beige;
-  margin-left: 60px;
-  margin-right: 100px;
 }
 
 button {
-  font-size: 20px;
+  font-size: 15px;
   background-color: gold;
   font-weight: bold;
-  margin: 20px 20px 0px 100px;
+  margin: 30px 20px 30px 100px;
+  padding: 5px 5px 5px 5px;
 }
 
 h1 {
   color: darkblue;
-  font-family: Montserrat;
-  font-size: 4em;
+  font-size: 40px;
   font-weight: bold;
   letter-spacing: 2px;
+  margin: 20px 0px 20px;
   text-transform: uppercase;
 }
 
 h2 {
   color: darkblue;
   font-family: Roboto;
-  font-size: 3em;
+  font-size: 30px;
   margin-bottom: 10px;
 }
 
 h3 {
   color: darkblue;
   font-family: Roboto;
-  font-size: 2em;
+  font-size: 20px;
   text-decoration: underline;
   margin-top: 60px;
+}
+
+main {
+  margin: 0px auto;
+  width: 100%;
+  max-width: 1500px;
+  min-height: 100vh;
+}
+
+nav {
+  display: flex;
+  align-items: left;
+  background-color: goldenrod;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 90%;
+}
+
+nav ul li {
+  list-style-type: none;
+  align-items: right;
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.name {
+  color: black;
+  font-size: 20px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+.myPhoto {
+  border-radius: 100%;
 }
 
 .pnormal {
@@ -46,21 +98,11 @@ h3 {
   font-weight: bold;
 }
 
-.hero {
-  column-count: 2;
-  column-gap: 40px;
-  justify-content: center;
-}
-
 .about {
-  column-count: 2;
-  column-gap: 40px;
   justify-content: center;
 }
 
 .experience {
-  column-count: 2;
-  column-gap: 40px;
   justify-content: center;
 }
 
