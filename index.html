@@ -17,39 +17,60 @@
     <!--NAV-->
     <header>
       <nav>
-        <p class="name">Marcos de Barros</p>
+        <a href="/"><p class="menu">Marcos de Barros</p></a>
         <ul>
           <li><a href="#about-me">About</a></li>
-          <li><a href="#experience">Work</a></li>
+          <li><a href="#experience">CV</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     <!--NAV-->
     <main>
+      <!--HERO-->
       <section class="hero">
-        <h1>Your Web Developer</h1>
-        <p>
-          Hi, I am Marcos, <strong>SEO Specialist and Web Developer</strong>.
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-          sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing
-          elitr, sed diam.
-        </p>
-        <button action="#experience">Check out my experience!</button>
-        <figure>
-          <img
-            class="myPhoto"
-            src="assets/marcos-debarros.png"
-            alt="Marcos de Barros Vioque"
-          />
-          <figcaption>
-            Marcos de Barros Vioque, the expert for your website.
-          </figcaption>
-        </figure>
+        <div class="heropresentation">
+          <h1>Your Web Developer</h1>
+          <p>
+            Hi, I am Marcos, <strong>SEO Specialist and Web Developer</strong>.
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur
+            sadipscing elitr, sed diam:
+          </p>
+          <br />
+          <ol>
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Lorem ipsum dolor sit amet</li>
+            <li>Lorem ipsum dolor sit amet</li>
+          </ol>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur
+            sadipscing elitr, sed diam.
+          </p>
+          <br />
+          <button class="herobutton">Let's talk!</button>
+        </div>
+        <div>
+          <figure>
+            <img
+              class="heroimage"
+              src="assets/marcos-debarros.png"
+              alt="Marcos de Barros Vioque"
+            />
+            <figcaption>
+              Marcos de Barros Vioque, the expert for your website.
+            </figcaption>
+          </figure>
+        </div>
       </section>
+      <!--HERO-->
+
       <h2 id="about-me">About me</h2>
-      <section class="about">
+      <section>
         <p>
           I'm a experienced search marketer, learning the fundamentals to start
           a career as a <strong>Web Developer</strong>.
@@ -77,9 +98,10 @@
         </ul>
         <p>I'm happy to <a href="#contact">connect</a>!</p>
       </section>
+      <hr />
       <h2 id="experience">Work experience</h2>
-      <section class="experience">
-        <p class="pthick">Nov 2018 - present: SEO Manager - Jimdo GmbH</p>
+      <section>
+        <p>Nov 2018 - present: SEO Manager - Jimdo GmbH</p>
         <ul class="workstations">
           <li>
             Collecting data and reporting on rankings, traffic, and other key
@@ -91,7 +113,7 @@
           </li>
           <li>Executing keywords, competitive and OnPage analysis</li>
         </ul>
-        <p class="pthick">
+        <p>
           Jan 2017 - Oct 2018: Junior SEO & Localization Manager - Jimdo GmbH
         </p>
         <ul class="workstations">
@@ -105,7 +127,7 @@
             the content team
           </li>
         </ul>
-        <p class="pthick">
+        <p>
           Jan 2010 - Sep 2014: Product & Community Manager - Farbflut
           Entertainment GmbH
         </p>
@@ -120,9 +142,7 @@
             localization in nine languages
           </li>
         </ul>
-        <p class="pthick">
-          Oct 2014 - Dec 2016: Community Manager - Jimdo GmbH
-        </p>
+        <p>Oct 2014 - Dec 2016: Community Manager - Jimdo GmbH</p>
         <ul class="workstations">
           <li>Consulting of customers around the creation of their websites</li>
           <li>Creating tutorials and content for the Spanish help section</li>
@@ -132,10 +152,12 @@
           </li>
         </ul>
       </section>
+      <hr />
       <section>
         <h2 id="contact">Contact</h2>
         <p>Want to talk? Message me!</p>
         <form class="form">
+          <input type="text" />
           <input type="submit" />
         </form>
       </section>
