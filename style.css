@@ -2,21 +2,26 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  font-family: Montserrat;
 }
 
 body {
   font-size: 14px;
-  background-color: beige;
+  font-family: Montserrat;
+  background-color: lightgoldenrodyellow;
 }
 
 nav {
   display: flex;
   background-color: goldenrod;
+  flex-wrap: wrap;
   justify-content: space-between;
-  padding: 10px 10px 10px 0px;
+  padding: 10px 10px 10px 10px;
   position: fixed;
   width: 100vw;
+}
+
+nav a {
+  text-decoration: none;
 }
 
 nav ul li {
@@ -31,6 +36,10 @@ nav ul li a {
   color: black;
   text-decoration: none;
   text-transform: capitalize;
+}
+
+nav ul li a:hover {
+  text-decoration: underline solid black 3px;
 }
 
 button {
@@ -62,30 +71,47 @@ h3 {
   color: darkblue;
   font-family: Roboto;
   font-size: 20px;
-  text-decoration: underline;
   margin-top: 60px;
 }
 
 main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   max-width: 1500px;
   min-height: 100vh;
-  padding-bottom: 30px;
+  padding: 5px 20px 30px;
+}
+
+section {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+hr {
+  width: 20%;
+  border: 5px dotted darkblue;
 }
 
 footer {
   display: flex;
   background-color: goldenrod;
   justify-content: space-between;
-  padding: 20px 0px 0px 20px;
+  padding: 20px 0px 10px 20px;
   width: 100vw;
+}
+
+footer ul {
+  list-style: none;
 }
 
 footer ul li {
   list-style-type: none;
+  display: inline;
 }
 
-.name {
+.menu {
   color: black;
   font-size: 20px;
 }
@@ -93,8 +119,6 @@ footer ul li {
 .hero {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
   margin-bottom: 20px;
   padding-top: 40px;
   width: 90%;
@@ -111,22 +135,6 @@ footer ul li {
 
 .form {
   margin-top: 20px;
-}
-
-.pnormal {
-  font-weight: normal;
-}
-
-.pthick {
-  font-weight: bold;
-}
-
-.about {
-  justify-content: center;
-}
-
-.experience {
-  justify-content: center;
 }
 
 .workstations {
