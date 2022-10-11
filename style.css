@@ -42,14 +42,6 @@ nav ul li a:hover {
   text-decoration: underline solid black 3px;
 }
 
-button {
-  font-size: 15px;
-  background-color: gold;
-  font-weight: bold;
-  margin: 30px 20px 30px 100px;
-  padding: 5px 5px 5px 5px;
-}
-
 h1 {
   color: darkblue;
   font-size: 40px;
@@ -120,12 +112,26 @@ footer ul li {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
-  padding-top: 40px;
+  padding-top: 80px;
   width: 90%;
 }
 
-.myPhoto {
-  border-radius: 100%;
+.heropresentation {
+  margin-right: 100px;
+}
+
+.herobutton {
+  display: flex;
+  justify-items: center;
+  font-size: 15px;
+  background-color: gold;
+  font-weight: bold;
+  margin: 30px 20px 30px 100px;
+  padding: 5px 5px 5px 5px;
+}
+
+.heroimage {
+  border-radius: 10%;
   margin-bottom: 10px;
 }
 
