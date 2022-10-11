@@ -141,6 +141,32 @@ footer ul li {
   margin-left: 80px;
 }
 
+.about {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
+
+.skills {
+  border: solid black 2px;
+  display: flex;
+}
+
+.skillslist {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.skillsbullets {
+  padding-left: 20px;
+  padding-right: 20px;
+  list-style-type: none;
+}
+
+.separator {
+  padding-bottom: 20px;
+}
+
 .copyright {
   margin-right: 30px;
 }
