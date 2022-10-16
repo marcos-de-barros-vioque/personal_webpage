@@ -8,6 +8,7 @@ body {
   font-size: 14px;
   font-family: Montserrat;
   background-color: lightgoldenrodyellow;
+  width: 100vw;
 }
 
 nav {
@@ -42,6 +43,16 @@ nav ul li a:hover {
   text-decoration: underline solid black 3px;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  padding: 5px 20px 30px;
+}
+
 h1 {
   color: darkblue;
   font-size: 40px;
@@ -64,16 +75,6 @@ h3 {
   font-family: Roboto;
   font-size: 20px;
   margin-top: 60px;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  max-width: 1500px;
-  min-height: 100vh;
-  padding: 5px 20px 30px;
 }
 
 section {
@@ -111,66 +112,175 @@ footer ul li {
 }
 
 .hero {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 20% 1fr 20%;
   margin-bottom: 20px;
-  padding-top: 80px;
-  width: 90%;
+  padding-top: 20px;
+  width: 100vw;
+}
+
+.heropicture {
+  grid-column: 1;
+  grid-row: 1 / span 3;
+  margin-left: 80px;
 }
 
 .heropresentation {
-  margin-right: 100px;
+  margin-right: 300px;
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.herodescription {
+  margin-top: 30px;
 }
 
 .herobutton {
   display: flex;
-  justify-items: center;
-  font-size: 15px;
-  background-color: gold;
+  border-radius: 10%;
+  justify-items: left;
+  font-size: 20px;
+  background-color: goldenrod;
   font-weight: bold;
-  margin: 30px 20px 30px 100px;
+  margin-top: 40px;
   padding: 5px 5px 5px 5px;
+}
+
+.herocta {
+  text-decoration: none;
 }
 
 .heroimage {
   border-radius: 10%;
   margin-bottom: 10px;
-}
-
-.herobenefits {
-  margin-left: 80px;
+  width: 80%;
 }
 
 .about {
-  display: flex;
-  justify-content: center;
-  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 20% 1fr 20%;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  width: 100vw;
 }
 
-.skills {
-  border: solid black 2px;
-  display: flex;
+.aboutpicture {
+  grid-column: 2;
+  grid-row: 1 / span 3;
+  margin-left: 80px;
+}
+
+.aboutimage {
+  border-radius: 10%;
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+.aboutskills {
+  grid-column: 1;
+  grid-row: 1 / span 3;
+  margin-left: 300px;
+}
+
+.aboutdescription {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .skillslist {
+  border: 2px dotted;
+  margin-right: 150px;
+  margin-top: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 
 .skillsbullets {
+  font-style: italic;
   padding-left: 20px;
   padding-right: 20px;
   list-style-type: none;
 }
 
-.separator {
-  padding-bottom: 20px;
+.cv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+  margin-bottom: 20px;
+  width: 100vw;
+}
+
+.cvdescription {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.cv-station1 {
+  border-radius: 1em;
+  grid-column: 1;
+  grid-row: 1;
+  background-color: goldenrod;
+  margin-left: 80px;
+  margin-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.cv-station2 {
+  border-radius: 1em;
+  grid-column: 1;
+  grid-row: 2;
+  margin-left: 80px;
+  margin-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.cv-station3 {
+  border-radius: 1em;
+  grid-column: 2;
+  grid-row: 1;
+  margin-left: 10px;
+  margin-right: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.cv-station4 {
+  border-radius: 1em;
+  grid-column: 2;
+  grid-row: 2;
+  background-color: goldenrod;
+  margin-left: 10px;
+  margin-right: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.cvstation-title {
+  font-style: bold;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cvstations {
+  margin-bottom: 5%;
+}
+
+.cvbullets {
+  padding-left: 20px;
+  padding-right: 20px;
+  list-style-type: none;
+}
+
+.contactdescription {
+  margin-top: 20px;
+  align-content: center;
 }
 
 .copyright {
   margin-right: 30px;
-}
-
-.workstations {
-  margin-bottom: 5%;
 }
