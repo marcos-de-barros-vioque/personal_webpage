@@ -1,0 +1,31 @@
+nav {
+  display: flex;
+  background-color: goldenrod;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px 10px 10px 10px;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+nav ul li a:hover {
+  text-decoration: underline solid black 2px;
+}
