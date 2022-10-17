@@ -41,7 +41,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  text-decoration: underline solid black 3px;
+  text-decoration: underline solid black 2px;
 }
 
 main {
@@ -180,6 +180,7 @@ footer ul li {
   flex-direction: row;
   justify-content: center;
   grid-area: desc-about;
+  margin-bottom: 20px;
 }
 
 .about-skills {
@@ -283,12 +284,15 @@ footer ul li {
 }
 
 .cvbullets {
-  padding-left: 20px;
+  margin-left: 50px;
   padding-right: 20px;
-  list-style-type: none;
 }
 
-.contactdescription {
+.contact-title {
+  margin-top: 40px;
+}
+
+.contact-desc {
   margin-top: 20px;
   align-content: center;
 }
