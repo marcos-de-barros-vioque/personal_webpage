@@ -18,6 +18,11 @@ header {
   width: 100vw;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 50px;
+}
+
 nav {
   display: flex;
   background-color: goldenrod;
@@ -178,7 +183,6 @@ footer ul li {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-top: 40px;
   grid-area: h2-about;
 }
 
@@ -229,7 +233,6 @@ footer ul li {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-top: 40px;
   grid-area: h2;
 }
 
@@ -292,10 +295,6 @@ footer ul li {
 .cvbullets {
   margin-left: 50px;
   padding-right: 20px;
-}
-
-.contact-title {
-  margin-top: 40px;
 }
 
 .contact-desc {
